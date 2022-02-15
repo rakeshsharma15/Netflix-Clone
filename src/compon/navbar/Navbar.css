@@ -1,0 +1,49 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+    padding: 2px 60px;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+.navbar.active{
+    display: none;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+      margin-left: 15px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+.options{
+    display: none;
+    position: absolute;
+}
+
+.profile:hover .options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 10px;
+
+}
+span{
+    padding: 5px;
+    cursor: pointer;
+}
